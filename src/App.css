@@ -1,0 +1,38 @@
+.header {
+  margin-bottom: 20px;
+}
+
+.search-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ced4da; /* Bootstrap's default border color */
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.beer-card {
+  border: none; /* Remove default border */
+}
+
+.beer-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover; /* Ensure images maintain aspect ratio */
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.beer-info {
+  padding: 20px;
+}
+
+.beer-info h2 {
+  margin-top: 0;
+  font-size: 20px;
+}
+
+.beer-info p {
+  margin-bottom: 5px;
+}
